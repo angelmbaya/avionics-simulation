@@ -1,4 +1,5 @@
 Overview
+![Rocket trajectory simulation](assets/trajectory_demo.png)
 This project is a 2D rocket launch and trajectory simulator built in Java, focused on modeling real-world physics and responsive software design. It simulates rocket motion under thrust, drag, and gravity using Heun’s (Improved Euler) method, and visualizes trajectories through a Swing-based GUI.
 The simulation runs on a background thread to maintain UI responsiveness, and includes a JUnit test suite to validate core physics behavior. This project demonstrates numerical modeling, multithreaded application design, and test-driven verification.
 
