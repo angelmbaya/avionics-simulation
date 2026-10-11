@@ -14,3 +14,5 @@ Features
 - Multithreaded simulation to keep the GUI responsive.
 
 - Trajectory plotting with automatically scaled axes.
+
+- Includes a JUnit 5 test that checks gravitational acceleration when thrust and drag are disabled.
