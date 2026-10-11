@@ -16,3 +16,25 @@ Features
 - Trajectory plotting with automatically scaled axes.
 
 - Includes a JUnit 5 test that checks gravitational acceleration when thrust and drag are disabled.
+
+## Running the application
+
+Install a Java Development Kit (JDK) and ensure `java` and `javac` are available in your terminal.
+
+Download or clone this repository, then open a terminal in its root folder.
+
+Compile the application:
+
+```sh
+javac -d out src/*.java
+```
+
+Launch it:
+
+```sh
+java -cp out RocketSimulatorApp
+```
+
+In the application, keep the default parameters and click **Simulate**. The completed trajectory will appear alongside flight time, maximum height, and horizontal range.
+
+These commands compile the application only. The test in `test/RocketSimulatorTest.java` requires JUnit 5.
